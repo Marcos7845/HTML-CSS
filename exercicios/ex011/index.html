@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens adaptaveis</title>
+</head>
+<body>
+    <h1>Imagens que mudam de tamanho de acordo com o tamanho da tela do usuario, isso facilitará a usabilidade do usuario</h1>
+        <p>Tente abrir o site em dieferentes dispositivos</p>
+    <picture>
+        
+        <source media="(max-width: 800px)" srcset="Imagens/Peq400p.png" type="image/png">
+        <source media="(max-width: 1100px)" srcset="Imagens/med700p.png" type="image/png">
+        <img src="Imagens/grande1000p.png" alt="imagem de tamanho grande">
+    </picture>
+
+
+
+    <h1>colocando audio no seu html</h1>
+    <audio src="midia/dropthetapes.mp3" controls>
+        
+    </audio>
+
+
+   <p>Outra forma de colocar audio no seu html</p> 
+
+        <audio preload="metadata" controls>
+            <source src="midia/dropthetapes.mp3" type="audio/mpeg">
+            <source src="midia/dropthetapes.ogg" type="audio/ogg">
+            <source src="midia/dropthetapes.WAV" type="audio/WAV">
+
+            
+        </audio>
+    
+        <p>Não foi possivel reproduzir o audio? <a href="midia/dropthetapes.mp3" target="_blank"> Clique aqui para fazer o download</a></p>
+
+
+        <h1>incorporando video no vimeo</h1>
+
+        
+        <iframe src="https://player.vimeo.com/video/783453158?h=bca8b328e2&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/783453158">One More Try (Interactive)</a> from <a href="https://vimeo.com/najeebtarazi">Najeeb Tarazi</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/783453158?h=bca8b328e2&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/783453158">One More Try (Interactive)</a> from <a href="https://vimeo.com/najeebtarazi">Najeeb Tarazi</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>

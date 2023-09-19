@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+}
+
+body{
+
+    background-image:linear-gradient(to left,#F2CEA2,#734C29)
+}
+
+main{
+    background-color: white;
+    border-radius: 5px; /** arredondar as bordas da divisão**/
+    box-shadow: 5px 5px 15px #000203 ;/** colocar sombras, onde o primeiro termo é o deslocamento, segundo é o tamanhio**/ /* offset-x | offset-y | blur-radius | color */
+
+    width: 800px;/* tamanho da divisão main */
+    padding: 15px;/* bordas do texto, para ele acabar antes de ''relar'' na borda*/
+    margin: auto;
+
+
+
+}
+h1{
+
+font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+ color: #402915;
+
+
+
+}
+h2{
+    color: rgb(30, 9, 224);
+}
+p{
+    text-align: justify;
+}
