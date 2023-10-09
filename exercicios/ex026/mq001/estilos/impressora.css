@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+*{
+    margin: 15px;
+    padding: 15px;
+}
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2em;
+    font-size: 1em;
+}
+menu{
+    display: none;
+}
