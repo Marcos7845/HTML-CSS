@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* Todas as denmais midias*/
+
+/* Tipicos Device Breakpoint segundo w3c porém, por logica, a maioria dos monitores, por exemplo, são full hd - width de 1980px*/
+/*Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+
+@media print{
+    body{
+    background-image: url(../imagens/back-print.jpg);
+    font-family: 'Courier New', Courier, monospace;
+
+    }
+    img#phone{display:none}
+    img#pc{display:none;}
+    img#tablet{display:none;}
+    img#print{display:block;}
+    img#tv{display:none;}
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    body {
+        background-image: url(../imagens/back-tablet.jpg)
+    }
+    img#phone{display:none}
+    img#pc{display:none;}
+    img#tablet{display:block;}
+    img#print{display:none;}
+    img#tv{display:none;}
+}
+
+@media screen and (min-width: 992px) and (max-width:1680px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+
+    }
+    img#phone{display:none}
+    img#pc{display:block;}
+    img#tablet{display:none;}
+    img#print{display:none;}
+    img#tv{display:none;}
+
+}
+
+@media screen and (min-width:1680px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#phone{display:none}
+    img#pc{display:none;}
+    img#tablet{display:none;}
+    img#print{display:none;}
+    img#tv{display:block;}
+
+}
